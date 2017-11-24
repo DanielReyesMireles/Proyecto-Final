@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<link rel="stylesheet" href="StyleIndex.css" />        
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        	<title>Registro</title>
+    </head>
+    <body>
+	 <header>
+			<hgroup>
+				<h1>LibrosGratis</h1>
+				<h2>Proyecto Final</h2>
+			</hgroup>
+		</header>
+			<nav>
+				<ul>
+					<li>
+						<a href="Inicio1.html" >Inicio</a>
+					</li>
+						<li>	
+						<a href="Registro.html" >Registrarse</a>
+					</li>
+					<li>	
+						<a href="login.jsp" >Iniciar sesion</a>
+					</li>
+				</ul>
+			</nav>
+        			<h1>Registro</h1>
+        			
+	<form action="Registro"> 
+                    <div>Nombre Completo</div>
+                    <input type="text" name="Nombre" /> 
+     
+                    <div>E-mail</div>
+                    <input type="text" name="E-Mail" /> 
+              
+                    <div>Nombre de Usuario</div>
+                    <input type="text" name="usuario" />
+               
+                    <div>Contraseña</div>
+                    <input type="text" name="Contraseña" /> 
+               
+                    <div>Mes de Nacimiento</div>
+                 <select name="mes">
+                     <option selected value="0"> Elige una opcion </option>
+                     <option value="Enero">Enero</option>
+                     <option value="Febrero">Febrero</option>
+                     <option value="Marzo">Marzo</option>
+                     <option value="April">Abril</option>
+                     <option value="Mayo">Mayo</option>
+                     <option value="Junio">Junio</option>
+                     <option value="Julio">Julio</option>
+                     <option value="Agosto">Agosto</option>
+                     <option value="Seotiembre">Septiembre</option>
+                     <option value="Octubre">Octubre</option>
+                     <option value="Noviembre">Noviembre</option>
+                     <option value="Diciembre">Diciembre</option>
+                 </select>
+           <div>Elegir sexo:<br />
+
+           Masculino: <input type="radio" name="sexo" value="Masculino"/><br />
+
+            Femenino: <input type="radio" name="sexo" value="Femenino"/><br />
+ 
+           </div>
+           
+
+            <div>Soy mayor de edad <input type="checkbox" name="Edad"/><br /></div>
+
+            <div>¿Qué libros te gusta leer?: <textarea rows="5" name="acerca"></textarea>
+ 
+           </div>
+ 
+
+            </table>
+            <div>
+            <input type="submit" onClick value="Enviar" />
+            <input type="reset" value="Borrar"/>
+            </div>
+        
+    </form>
+    </body>
+</html>
